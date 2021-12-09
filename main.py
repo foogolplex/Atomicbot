@@ -1,6 +1,6 @@
-from joebiden import JoeBiden
+from atomic import Atomic
 import dotenv
 
 dotenv.load_dotenv()
-j = JoeBiden()
+j = Atomic()
 j.start_bot()
